@@ -400,6 +400,7 @@
 				27DABE831BF3C3090063B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27DABE841BF3C3090063B524 /* Build configuration list for PBXNativeTarget "AsifUnitTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +409,7 @@
 				27DABE861BF3C3090063B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
