@@ -13,11 +13,11 @@
 		27DABE6D1BF3C3080063B524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DABE6B1BF3C3080063B524 /* Main.storyboard */; };
 		27DABE6F1BF3C3080063B524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DABE6E1BF3C3080063B524 /* Assets.xcassets */; };
 		27DABE721BF3C3080063B524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DABE701BF3C3080063B524 /* LaunchScreen.storyboard */; };
-		27DABE7D1BF3C3090063B524 /* AsifUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DABE7C1BF3C3090063B524 /* AsifUnitTestsTests.m */; };
+		27DABE8C1BF450C20063B524 /* AsifUnitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DABE7C1BF3C3090063B524 /* AsifUnitTestsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27DABE791BF3C3080063B524 /* PBXContainerItemProxy */ = {
+		27DABE8A1BF450C20063B524 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27DABE571BF3C3080063B524 /* Project object */;
 			proxyType = 1;
@@ -37,9 +37,10 @@
 		27DABE6E1BF3C3080063B524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DABE711BF3C3080063B524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27DABE731BF3C3080063B524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27DABE781BF3C3080063B524 /* AsifUnitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsifUnitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DABE7C1BF3C3090063B524 /* AsifUnitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsifUnitTestsTests.m; sourceTree = "<group>"; };
 		27DABE7E1BF3C3090063B524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DABE921BF450C20063B524 /* AsifUnitTestsTests copy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsifUnitTestsTests copy.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DABE931BF450C30063B524 /* AsifUnitTestsTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AsifUnitTestsTests copy-Info.plist"; path = "/Users/asifnoor/Documents/UnitTest/AsifUnitTestsTests copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27DABE751BF3C3080063B524 /* Frameworks */ = {
+		27DABE8D1BF450C20063B524 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,6 +67,7 @@
 				27DABE611BF3C3080063B524 /* AsifUnitTests */,
 				27DABE7B1BF3C3080063B524 /* AsifUnitTestsTests */,
 				27DABE601BF3C3080063B524 /* Products */,
+				27DABE931BF450C30063B524 /* AsifUnitTestsTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				27DABE5F1BF3C3080063B524 /* AsifUnitTests.app */,
-				27DABE781BF3C3080063B524 /* AsifUnitTestsTests.xctest */,
+				27DABE921BF450C20063B524 /* AsifUnitTestsTests copy.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,22 +133,22 @@
 			productReference = 27DABE5F1BF3C3080063B524 /* AsifUnitTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		27DABE771BF3C3080063B524 /* AsifUnitTestsTests */ = {
+		27DABE881BF450C20063B524 /* AsifUnitTestsTests copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27DABE841BF3C3090063B524 /* Build configuration list for PBXNativeTarget "AsifUnitTestsTests" */;
+			buildConfigurationList = 27DABE8F1BF450C20063B524 /* Build configuration list for PBXNativeTarget "AsifUnitTestsTests copy" */;
 			buildPhases = (
-				27DABE741BF3C3080063B524 /* Sources */,
-				27DABE751BF3C3080063B524 /* Frameworks */,
-				27DABE761BF3C3080063B524 /* Resources */,
+				27DABE8B1BF450C20063B524 /* Sources */,
+				27DABE8D1BF450C20063B524 /* Frameworks */,
+				27DABE8E1BF450C20063B524 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27DABE7A1BF3C3080063B524 /* PBXTargetDependency */,
+				27DABE891BF450C20063B524 /* PBXTargetDependency */,
 			);
-			name = AsifUnitTestsTests;
+			name = "AsifUnitTestsTests copy";
 			productName = AsifUnitTestsTests;
-			productReference = 27DABE781BF3C3080063B524 /* AsifUnitTestsTests.xctest */;
+			productReference = 27DABE921BF450C20063B524 /* AsifUnitTestsTests copy.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -160,10 +162,6 @@
 				TargetAttributes = {
 					27DABE5E1BF3C3080063B524 = {
 						CreatedOnToolsVersion = 7.1;
-					};
-					27DABE771BF3C3080063B524 = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 27DABE5E1BF3C3080063B524;
 					};
 				};
 			};
@@ -181,7 +179,7 @@
 			projectRoot = "";
 			targets = (
 				27DABE5E1BF3C3080063B524 /* AsifUnitTests */,
-				27DABE771BF3C3080063B524 /* AsifUnitTestsTests */,
+				27DABE881BF450C20063B524 /* AsifUnitTestsTests copy */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27DABE761BF3C3080063B524 /* Resources */ = {
+		27DABE8E1BF450C20063B524 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,21 +215,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27DABE741BF3C3080063B524 /* Sources */ = {
+		27DABE8B1BF450C20063B524 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DABE7D1BF3C3090063B524 /* AsifUnitTestsTests.m in Sources */,
+				27DABE8C1BF450C20063B524 /* AsifUnitTestsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27DABE7A1BF3C3080063B524 /* PBXTargetDependency */ = {
+		27DABE891BF450C20063B524 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 27DABE5E1BF3C3080063B524 /* AsifUnitTests */;
-			targetProxy = 27DABE791BF3C3080063B524 /* PBXContainerItemProxy */;
+			targetProxy = 27DABE8A1BF450C20063B524 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -357,11 +355,11 @@
 			};
 			name = Release;
 		};
-		27DABE851BF3C3090063B524 /* Debug */ = {
+		27DABE901BF450C20063B524 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AsifUnitTestsTests/Info.plist;
+				INFOPLIST_FILE = "AsifUnitTestsTests copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.techipost.AsifUnitTestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,11 +367,11 @@
 			};
 			name = Debug;
 		};
-		27DABE861BF3C3090063B524 /* Release */ = {
+		27DABE911BF450C20063B524 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AsifUnitTestsTests/Info.plist;
+				INFOPLIST_FILE = "AsifUnitTestsTests copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.techipost.AsifUnitTestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,11 +400,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27DABE841BF3C3090063B524 /* Build configuration list for PBXNativeTarget "AsifUnitTestsTests" */ = {
+		27DABE8F1BF450C20063B524 /* Build configuration list for PBXNativeTarget "AsifUnitTestsTests copy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27DABE851BF3C3090063B524 /* Debug */,
-				27DABE861BF3C3090063B524 /* Release */,
+				27DABE901BF450C20063B524 /* Debug */,
+				27DABE911BF450C20063B524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
